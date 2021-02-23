@@ -9,32 +9,68 @@ body {
 
 }
 
+h1, h2, h3, h4, p {
+	margin-top: 0;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
 h1 {
 	font-weight: 900;
-	font-size: 3em;
 	font-style: italic;
-	color: lightsteelblue;
+	color: black;
 	text-align: center;
 }
 
 h2 {
 	font-weight: 700;
 	color: papayawhip;
+	text-align: center;
 }
 
 p {
 	font-weight: 200;
-	text-indent: 50px;
+	
 }
 
-div {
-	height: 250px;
+#wrapper {
+	margin: 2em auto;
+	max-width: 1200px;
+	
+}
+
+#main {
 	background: darkslategray;
 	margin: 50px;
 	padding: 30px;
 }
 
-div.one { 
-	background: lightslategray;
-	height: 100px;
- }
+#sidebar {
+	background: lightpink;
+}
+
+#content {
+	background: steelblue;
+}
+
+@media (max-width: 699px) {
+	#wrapper {
+		margin: 0em auto;
+	}
+
+	#main {
+		margin: 1em;
+		padding: 0em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
