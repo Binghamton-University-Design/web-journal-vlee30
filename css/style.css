@@ -3,7 +3,7 @@
 body {
 	margin: 20px;
 	background: lightsteelblue;
-	color: midnightblue;
+	color: white;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 
@@ -11,14 +11,15 @@ body {
 
 h1 {
 	font-weight: 900;
-	font-size: xx-large;
-	color: black;
+	font-size: 3em;
+	font-style: italic;
+	color: lightsteelblue;
 	text-align: center;
 }
 
 h2 {
 	font-weight: 700;
-	color: antiquewhite;
+	color: papayawhip;
 }
 
 p {
@@ -26,3 +27,14 @@ p {
 	text-indent: 50px;
 }
 
+div {
+	height: 250px;
+	background: darkslategray;
+	margin: 50px;
+	padding: 30px;
+}
+
+div.one { 
+	background: lightslategray;
+	height: 100px;
+ }
