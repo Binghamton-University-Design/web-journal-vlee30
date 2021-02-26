@@ -2,8 +2,8 @@
 
 body {
 	margin: 20px;
-	background: lightsteelblue;
-	color: white;
+	background: #006699;
+	color: black;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 
@@ -16,22 +16,27 @@ h1, h2, h3, h4, p {
 	margin-right: 1em;
 }
 
+@font-face {
+	font-family: 'evergreen';
+	src: url('fonts/Evergreen.otf');
+}
+
 h1 {
-	font-weight: 900;
-	font-style: italic;
-	color: black;
+	padding-top: 20px;
+	color: #006699;
+	/*font-family: 'Evergreen';*/
+	font-family: 'Chewy', cursive;
 	text-align: center;
 }
 
 h2 {
 	font-weight: 700;
-	color: papayawhip;
+	color: #006699;
 	text-align: center;
 }
 
 p {
 	font-weight: 200;
-	
 }
 
 #wrapper {
@@ -41,17 +46,124 @@ p {
 }
 
 #main {
-	background: darkslategray;
+	background: #EBF6FF;
 	margin: 50px;
 	padding: 30px;
+	border-radius: 30px;
 }
 
 #sidebar {
-	background: lightpink;
+}
+
+#logo {
+	padding: 2em 0;
+}
+
+#logo h1 {
+	margin: 0;
+}
+
+#logo img {
+	width: 75%;
+	height: auto;
+}
+
+/*
+.project1 {
+	margin: 1.5em;
+	border: 3px solid black;
+	border-color: #006699;
+	border-radius: 20px;
+	text-align: left;
+	text-indent: 10px;
+	font-weight: 300;
+	color: #006699;
+	height: 1.5em; 
+} */
+
+.menu-button {
+	background-color: transparent;
+	color: #006699;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	cursor: pointer;
+	border: 2px solid #006699;
+	border-top-right-radius: 15px; 
+	border-top-left-radius: 15px;
+	width: 150px;
+}
+
+.left-menu {
+	position: relative;
+	display: inline-block;
+	float: left; /* if i put center the button is centered but not the drop down menu*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
+
+.dropdown-menu {
+	display: none;
+	position: absolute;
+	background-color: #006699;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dropdown-menu a {
+	color: #EBF6FF;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-menu a:hover{
+	background-color: #EBF6FF;
+	color: #006699;
+}
+
+.left-menu:hover .dropdown-menu {
+	display: block;
+}
+
+.left-menu:hover .menu-button {
+	background-color: transparent;
+}
+
+#box {
+	margin: 1em auto;
+	padding: 1em;
+	border: 3px solid black;
+	border-color: #006699;
+	/*background: papayawhip;*/
+	border-radius: 20px;
+	height: 100px;
+	text-align: justify;
+}
+
+.item img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*width: 50%;*/
 }
 
 #content {
-	background: steelblue;
+	/*background: steelblue;*/
 }
 
 @media (max-width: 699px) {
@@ -62,6 +174,15 @@ p {
 	#main {
 		margin: 1em;
 		padding: 0em;
+	}
+
+	#box {
+		padding: 0em auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		text-align: center;
 	}
 }
 
