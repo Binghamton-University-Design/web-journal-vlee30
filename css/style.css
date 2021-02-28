@@ -53,6 +53,7 @@ p {
 }
 
 #sidebar {
+	border-right-color: #006699;
 }
 
 #logo {
@@ -85,8 +86,7 @@ p {
 	background-color: transparent;
 	color: #006699;
 	padding: 10px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	font-size: 15px;
 	cursor: pointer;
 	border: 2px solid #006699;
@@ -98,21 +98,19 @@ p {
 .left-menu {
 	position: relative;
 	display: inline-block;
-	float: left; /* if i put center the button is centered but not the drop down menu*/
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	padding: 15px;
 }
 
 .dropdown-menu {
 	display: none;
-	position: absolute;
+	position: relative;
 	background-color: #006699;
-	min-width: 150px;
+	width: 150px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin: auto;
 	z-index: 1;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
 }
 
 .dropdown-menu a {
@@ -157,8 +155,7 @@ p {
 
 .center {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	/*width: 50%;*/
 }
 
@@ -184,14 +181,16 @@ p {
 		width: 300px;
 		text-align: center;
 	}
+
+	.menu-button {
+		min-width: 300px;
+	}
+
+	.left-menu {
+		min-width: 300px;
+	}
+
+	.dropdown-menu {
+		min-width: 300px;
+	}
 }
-
-
-
-
-
-
-
-
-
-
