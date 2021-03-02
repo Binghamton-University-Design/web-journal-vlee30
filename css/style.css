@@ -22,7 +22,7 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-	padding-top: 20px;
+	padding-top: 10px;
 	color: #006699;
 	/*font-family: 'Evergreen';*/
 	font-family: 'Chewy', cursive;
@@ -33,6 +33,7 @@ h2 {
 	font-weight: 700;
 	color: #006699;
 	text-align: center;
+	font-style: italic;
 }
 
 p {
@@ -41,7 +42,7 @@ p {
 
 #wrapper {
 	margin: 2em auto;
-	max-width: 1200px;
+	max-width: 1500px;
 	
 }
 
@@ -157,6 +158,12 @@ p {
 	display: block;
 	margin: auto;
 	/*width: 50%;*/
+}
+
+#heading {
+	font-family: 'Lato', sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
 #content {
