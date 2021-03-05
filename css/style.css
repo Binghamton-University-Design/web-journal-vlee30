@@ -121,6 +121,9 @@ p {
 	background-color: transparent;
 }
 
+.item {
+	margin-bottom: 2em;
+}
 
 .item img {
 	width: 100%;
@@ -136,13 +139,6 @@ p {
 	display: block;
 	margin: auto;
 	/*width: 50%;*/
-}
-.column {
-  float: left;
-  width: 50%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-
 }
 
 /* Clear floats after the columns */
@@ -214,4 +210,12 @@ p {
 		width: 100%;
 	}
 
+}
+
+@media (min-width: 700px) {
+	.item img.right-img {
+		width: 50%;
+		float: right;
+		padding: 0 0 2em 2em;
+	}
 }
