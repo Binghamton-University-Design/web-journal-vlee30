@@ -95,21 +95,22 @@ p {
 	border: 3px solid #006699;
 	border-top-right-radius: 15px; 
 	border-top-left-radius: 15px;
-	width: 150px;
+	width: 100%;
 }
 
 .left-menu {
+	width: 100%;
 	position: relative;
 	display: inline-block;
 	margin: auto;
-	padding: 15px;
+	padding-top: 10px;
 }
 
 .dropdown-menu {
 	display: none;
 	position: relative;
 	background-color: #006699;
-	width: 150px;
+	width: 100%;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	margin: auto;
 	z-index: 1;
