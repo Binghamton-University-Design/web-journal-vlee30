@@ -16,7 +16,6 @@ h1, h2, h3, h4, p {
 	margin-right: 1em;
 }
 
-
 #heading {
 	font-family: 'Droid Serif';
 	padding: 0;
@@ -27,19 +26,44 @@ h1, h2, h3, h4, p {
 	font-size: 40px;
 }
 
+#underline {
+	font-family: 'Droid Serif';
+	padding: 0;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	margin: 0;
+	text-align: left;
+	color: #006699;
+	font-size: 35px;
+	text-decoration: underline;
+}
+
 h2 {
 	font-family: 'Droid Serif';
 	color: #EBF6FF;
 	text-align: left;
-	
 	padding-bottom: 1em;
 	margin: 0;
 	font-size: 30px;
 }
 
+#index h2 {
+	font-family: 'Droid Serif';
+	color: #006699;
+	text-align: left;
+	padding-bottom: 1em;
+	margin: 0;
+	font-size: 30px;
+}
+
+#home {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
 p {
 	font-weight: 200;
-	margin-left: 0;
 }
 
 #wrapper {
@@ -87,7 +111,7 @@ p {
 	position: relative;
 	display: inline-block;
 	margin: auto;
-	padding: 15px;
+	padding-top: 10px;
 }
 
 .dropdown-menu {
@@ -141,7 +165,6 @@ p {
 	/*width: 50%;*/
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;

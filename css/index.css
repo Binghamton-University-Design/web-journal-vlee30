@@ -95,21 +95,22 @@ p {
 	border: 3px solid #006699;
 	border-top-right-radius: 15px; 
 	border-top-left-radius: 15px;
-	width: 150px;
+	width: 100%;
 }
 
 .left-menu {
+	width: 100%;
 	position: relative;
 	display: inline-block;
 	margin: auto;
-	padding: 15px;
+	padding-top: 10px;
 }
 
 .dropdown-menu {
 	display: none;
 	position: relative;
 	background-color: #006699;
-	width: 150px;
+	width: 100%;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	margin: auto;
 	z-index: 1;
@@ -127,6 +128,14 @@ p {
 	background-color: #EBF6FF;
 	color: #006699;
 }
+
+/* active (button click animation)
+.dropdown-menu a:active {
+  background-color: #EBF6FF;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+*/
 
 .left-menu:hover .dropdown-menu {
 	display: block;
@@ -161,6 +170,25 @@ p {
 	margin: auto;
 	/*width: 50%;*/
 }
+
+.spotify {
+	display: block;
+	max-width: 400px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 1em;
+	border-radius: 20px;
+	/*float: left;*/
+}
+
+/*
+.spotifytext { 
+	background: #006699;
+	margin: 1em;
+	float: left;
+	width: 100px;
+	height: 200px;
+}
+*/
 
 #content {
 	padding-bottom: 0;
@@ -207,5 +235,10 @@ p {
 
 	.dropdown-menu {
 		min-width: 300px;
+	}
+	.spotify {
+		margin: auto;
+		clear: left;
+
 	}
 }
