@@ -63,6 +63,8 @@ h2 {
 
 p {
 	font-weight: 200;
+	margin-left: 0;
+	margin-bottom: 10px;
 }
 
 #wrapper {
@@ -164,10 +166,6 @@ p {
 	/*width: 50%;*/
 }
 
-#exquisite {
-
-}
-
 .column {
   float: left;
   width: 50%;
@@ -175,13 +173,66 @@ p {
   padding-bottom: 5px;
 }
 
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
+/* P2 exquisite corpse */
+#exquisite {
+	position: relative;
+	margin-bottom: 2em;
+	margin-top: 0;
+	width: 100%;
+}
+
+#exquisite .grid {
+	grid-gap: 0;
+}
+
+#exquisite .grid img {
+	margin-bottom: 0;
+	margin-top: 0;
+	width: 100%;
+}
+
+h3 {
+	font-weight: 400;
+	margin-left: 0;
+	margin-bottom: 10px;
+	margin-right: 0;
+}
+
+ul.a {
+	list-style-type: circle;
+	font-weight: 200;
+}
+
+ol.b {
+	list-style-type: upper-roman;
+	font-weight: 200;
+}
+
+/* unvisited link */
+a.pin:link {
+  color: white;
+}
+
+/* visited link */
+a.pin:visited {
+  color: black;
+}
+
+/* mouse over link */
+a.pin:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a.pin:active {
+  color: blue;
+}
 
 /*project text*/
 @media (max-width: 1050px) {
