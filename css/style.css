@@ -65,6 +65,7 @@ p {
 	font-weight: 200;
 	margin-left: 0;
 	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 #wrapper {
@@ -193,7 +194,7 @@ p {
 
 #exquisite .grid img {
 	display: block;
-	margin-bottom: 0;
+	margin-bottom: s0;
 	margin-top: 0;
 	width: 100%;
 }

@@ -213,6 +213,24 @@ p {
   	justify-content: center;
 }
 
+/*spotify flexbox*/
+.spotifybox {
+	display: flex;
+	width: 100%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-top-right-radius: 15px; 
+	border-top-left-radius: 15px;
+	margin: 1em;
+	justify-content: left;
+}
+
+.spotify {
+	background: #EBF6FF;
+	width: 700px;
+	height: 400px;
+}
+
 
 /*spotify caption card*/
 @media (max-width: 1200px) {
@@ -224,8 +242,9 @@ p {
 	}
 }
 
+/*project presentation*/
 #projects {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 #projects .grid-item {
@@ -263,7 +282,7 @@ p {
 	padding: 10px;
 }
 
-
+/*mobile view styles*/
 @media (max-width: 699px) {
 	#wrapper {
 		margin: 0em auto;
