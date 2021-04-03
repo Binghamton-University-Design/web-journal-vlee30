@@ -185,8 +185,8 @@ p {
 /* CARD FOR SPOTIFY */
 .spotify {
   	float: left;
-  	width: 380px;
-  	padding: 0 10px;
+  	width: 360px;
+  	padding: 5px;
   	display: flex;
   	align-items: center;
   	justify-content: center;
