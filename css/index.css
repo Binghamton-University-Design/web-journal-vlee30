@@ -2,7 +2,7 @@
 
 body {
 	margin: 5px;
-	background: #EBF6FF;
+	background: white;
 	color: black;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
@@ -21,7 +21,7 @@ h1, h2, h3, h4, p {
 	padding-top: 1em;
 	margin: 0;
 	text-align: left;
-	color: #006699;
+	color: #333333;
 	font-size: 40px;
 }
 
@@ -32,14 +32,14 @@ h1, h2, h3, h4, p {
 	padding-bottom: 0.5em;
 	margin: 0;
 	text-align: left;
-	color: #006699;
+	color: #333333;
 	font-size: 35px;
 	text-decoration: underline;
 }
 
 h2 {
 	font-family: 'Droid Serif';
-	color: #006699;
+	color: #333333;
 	text-align: left;
 	margin: 0;
 	font-size: 30px;
@@ -70,7 +70,7 @@ p {
 }
 
 #main {
-	background: #EBF6FF;
+	background: white;
 	margin: 20px;
 	padding: 20px;
 }
@@ -98,12 +98,12 @@ p {
 
 .menu-button {
 	background-color: transparent;
-	color: #006699;
+	color: #333333;
 	padding: 10px;
 	margin: auto;
 	font-size: 15px;
 	cursor: pointer;
-	border: 3px solid #006699;
+	border: 3px solid #333333;
 	border-top-right-radius: 15px; 
 	border-top-left-radius: 15px;
 	width: 80%;
@@ -120,7 +120,7 @@ p {
 .dropdown-menu {
 	display: none;
 	position: relative;
-	background-color: #006699;
+	background-color: #333333;
 	width: 80%;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	margin: auto;
@@ -129,15 +129,15 @@ p {
 }
 
 .dropdown-menu a {
-	color: #EBF6FF;
+	color: white;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
 }
 
 .dropdown-menu a:hover{
-	background-color: #EBF6FF;
-	color: #006699;
+	background-color: white;
+	color: #333333;
 }
 
 /* active (button click animation)
@@ -160,8 +160,7 @@ p {
 	margin: 1em auto;
 	padding: 1em;
 	border: 3px solid black;
-	border-color: #006699;
-	/*background: papayawhip;*/
+	border-color: #333333;
 	border-radius: 20px;
 	height: 100px;
 	text-align: justify;
@@ -209,7 +208,7 @@ p {
  	border-top-right-radius: 15px; 
 	border-top-left-radius: 15px;
   	text-align: center;
-  	background-color: #EBF6FF;
+  	background-color: white;
   	justify-content: center;
 }
 
